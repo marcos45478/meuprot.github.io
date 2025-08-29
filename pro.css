@@ -1,0 +1,175 @@
+.libertinus-serif-regular {
+  font-family: "Libertinus Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libertinus-serif-semibold {
+  font-family: "Libertinus Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.libertinus-serif-bold {
+  font-family: "Libertinus Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libertinus-serif-regular-italic {
+  font-family: "Libertinus Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.libertinus-serif-semibold-italic {
+  font-family: "Libertinus Serif", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.libertinus-serif-bold-italic {
+  font-family: "Libertinus Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+*{
+margin: 0; 
+padding: 0;
+font-family: "Libertinus Serif", serif;
+}
+header{
+      background-color: #ffffff;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px 30px;
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.b1{
+  border-radius: 18px;
+  color: rgb(0, 0, 0);
+  border: none;
+  height: 30px;
+  width: 100px;
+  background-color: #fd6c1d;
+  color: white;
+}
+.b1:hover{
+  background-color: red;
+  color: white;
+  transition: 4ms;
+}
+
+.m1{
+  
+    background-image: url("pexels-codioful-7135121.jpg");
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* deixa os itens fiquem em coluna */
+  text-align: center;
+  color: white;
+}
+.n2 {
+  background-image: url("R_L.jpg");
+  height: 800px;
+  display: flex;
+  justify-content: flex-start; /* joga o texto para a esquerda */
+  align-items: center; /* continua centralizado verticalmente */
+  padding-left: 50px; /* adiciona espaçamento da borda */
+  color: white;
+  position: relative;
+  background-size: cover;
+}
+.n2 h1 {
+  position: absolute;
+  top: 100px;
+  left: 90px;
+  color: white;
+  font-size: 32px;
+}
+.n2 h4{
+ position: static; /* remove o absolute */
+  max-width: 400px; /* controla largura do texto */
+  font-size: 24px;
+  line-height: 1.5;
+}
+.n2 img{
+   position:absolute;
+  top: 60px;   /* distância do topo da div */
+  left: 1500px; /* distância da esquerda da div */
+  height: 700px;
+  width: 700px;
+  border-radius: 18px;
+}
+.n3{
+   background-image:  url("fond-d-ecran-colore-flou-vif.jpg");
+   align-items: center;
+     height: 800px;
+     
+}
+.n3 h1{
+ position: relative;
+ justify-self: center;  /*obg prof :D */
+ top: 35px;
+ color: white;
+}
+.t1{
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+  top: 200px;
+}
+.e1, .e2, .e3{
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 300px;
+  border-radius: 18px;
+}
+.e1 img{
+  height: 200px;
+  left: 45px;
+  top: 40px;
+  position: relative;
+  border-radius: 18px;
+}
+.e1 h5{
+text-align: center;
+position: relative;
+top: 70px;
+}
+
+.e2{
+background-image: url ("fu");
+}
+
+.e2 h5{
+  text-align: center;
+position: relative;
+top: 70px;
+}
+.e2 img{
+  height: 200px;
+  left: 45px;
+  top: 40px;
+  position: relative;
+}
+.e3{
+background-color: #5165f6;
+}
+.e3 img{
+    height: 200px;
+  left: 60px;
+  top: 40px;
+  position: relative;
+}
+.e3 h5{
+text-align: center;
+position: relative;
+top: 70px;
+
+}
